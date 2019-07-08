@@ -1646,6 +1646,10 @@
     padding: 10px;
   }
   
+  .subscribe-section-wrapper{
+    background-size: 100% 100%;
+  }
+  
   .subscribe-section .form-cont{
     width: 27.0833%;
   }
