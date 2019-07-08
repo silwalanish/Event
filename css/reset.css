@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+
+@font-face{
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Poppins Light";
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face{
+    font-family: "Poppins Medium";
+    src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face{
+    font-family: "Poppins SemiBold";
+    src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face{
+    font-family: "Playfair Display";
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf");
+}

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+</head>
+<body>
+    <div class="header-wrapper">
+        <div class="header">
+            <div class="navbar-container">
+                <div class="logo-container">
+                    <h1><a href="#"><img src="./images/logo.png" alt="Events"></a></h1>
+                </div>
+                <ul class="navbar" id="navigation">
+                    <li class="mobile">
+                        <button class="navbar-close" id="closeNav"></button>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Insights</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Sponsors</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Location</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Schedule</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Speakers</a>
+                    </li>
+                    <li class="divider mobile"></li>
+                    <li class="navbar-item">
+                        <button class="btn">Buy your ticket</button>
+                    </li>
+                </ul>
+                <button class="btn navbar-toggle" id="navbarToggler"><span class="hamburger-icon"></span></button>
+            </div>
+            <div class="header-banner">
+                <div class="header-title">
+                    <h2>
+                        Lepiza Announces New Design
+                    </h2>
+                </div>
+                <div class="date-location-container">
+                    <span class="date">October 10 & 11</span><span class="location">Berlin, Germany</span>
+                </div>
+                <div class="counter-container">
+                    <div class="days counter">
+                        <span class="count">14</span>
+                        <span class="label">Days</span>
+                    </div>
+                    <div class="hours counter">
+                        <span class="count">11</span>
+                        <span class="label">Hours</span>
+                    </div>
+                    <div class="minutes counter">
+                        <span class="count">30</span>
+                        <span class="label">Minutes</span>
+                    </div>
+                    <div class="seconds counter">
+                        <span class="count">43</span>
+                        <span class="label">Seconds</span>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button class="btn">Learn More</button>
+                    <button class="btn gold"><span class="go-icon">Buy Tickets Now</span></button>
+                </div>
+                <div class="media-control-container">
+                    <button class="media-btn play-icon" id="headerBgVideoPlayBtn">
+                        Play
+                    </button>
+                    <button class="media-btn pause-icon" id="headerBgVideoPauseBtn">
+                        Pause
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header-bg-images">
+            <img class="header-image" src="./images/header-bg_01.png" alt="Header Background">
+            <img class="header-image" src="./images/header-bg_02.png" alt="Header Background">
+            <img class="header-image" src="./images/header-bg_03.png" alt="Header Background">
+        </div>
+    </div>
+
+    <div class="body-wrapper">
+        
+        <div class="about-section-wrapper">
+            <div class="about-section">
+                <div class="content">
+                    <h2>Empowering what design is</h2>
+                    <p>
+                        So, As the culture moves brand which moves business, we believe that by making an 
+                        impact in culture, we shift the relevance of a brand and ultimately make that brand 
+                        commercially successful. But how do you make an impact in culture. The comms 
+                        landscape is more complex than ever. Brands are required to create an ever increasing 
+                        volume of hard working content and none of the traditional levers of advertising seem 
+                        to work efficiently anymore. 
+                    </p>
+
+                    <div class="btn-container">
+                        <button class="btn">ATTEND</button>
+                        <button class="btn">SPONSOR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stats-section-wrapper">
+            <div class="counter-container">
+                <div class="entrepreneurs counter">
+                    <span class="count">50, 000</span>
+                    <span class="label">Entrepreneurs</span>
+                </div>
+                <div class="cities counter">
+                    <span class="count">250</span>
+                    <span class="label">Cities</span>
+                </div>
+                <div class="countries counter">
+                    <span class="count">30</span>
+                    <span class="label">Countries</span>
+                </div>
+                <div class="speakers counter">
+                    <span class="count">25</span>
+                    <span class="label">Speakers</span>
+                </div>
+                <div class="workshops counter">
+                    <span class="count">10</span>
+                    <span class="label">Workshops</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="conf-speakers-section-wrapper">
+            <div class="conf-speakers-section">
+                <div class="section-title">Confirmed Speakers</div>
+                <div class="speakers-list-cont">
+                    <ul class="speakers-list">
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Thomas Abruzzi Martin
+                                    </div>
+                                    <div class="speaker-post">
+                                        CEO at Fan Solutions
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Ken Thompson
+                                    </div>
+                                    <div class="speaker-post">
+                                        Marketing Director at KGP Media
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_03.png" alt="Sandra Perry">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Sandra Perry
+                                    </div>
+                                    <div class="speaker-post">
+                                        Senior Developer at Frontech Media Solutions
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_04.png" alt="Brad K. Jackson">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Brad K. Jackson
+                                    </div>
+                                    <div class="speaker-post">
+                                        Senior Developer at Frontech Media
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_05.png" alt="Barry Allen">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Barry Allen
+                                    </div>
+                                    <div class="speaker-post">
+                                        Marketing Director at KGP Media
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_06.png" alt="Eva Theron">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Eva Theron
+                                    </div>
+                                    <div class="speaker-post">
+                                        CEO at Fan Solutions
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="schedule-section-wrapper">
+            <div class="schedule-section">
+                <div class="schedule-icon"></div>
+                <div class="section-title">Schedule</div>
+                <p class="section-description">Highly configurable block with optional auditoriums and threads</p>
+                <div class="days-tab-layout">
+                    <div class="tabs-cont">
+                        <a href="#" class="tab active">
+                            <div class="day">Day 1</div>
+                            <div class="date">11/24/2017</div>
+                        </a>
+                        <a href="#" class="tab">
+                            <div class="day">Day 2</div>
+                            <div class="date">11/25/2017</div>
+                        </a>
+                        <a href="#" class="tab">
+                            <div class="day">Day 3</div>
+                            <div class="date">11/26/2017</div>
+                        </a>
+                        <a href="#" class="tab">
+                            <div class="day">Day 4</div>
+                            <div class="date">11/27/2017</div>
+                        </a>
+                    </div>
+                    <div class="tab-content">
+                        <div class="auditorium-tab-layout">
+                            <div class="tabs-cont">
+                                <a href="#" class="tab active">Auditorium 1</a>
+                                <a href="#" class="tab">Auditorium 2</a>
+                                <a href="#" class="tab">Hall A1</a>
+                            </div>
+                            <div class="tab-content">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_06.png" alt="Eva Theron">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">2:20 PM</div>
+                                            <h2 class="schedule-title">Event registration & Breakfast</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="past-speakers-section-wrapper">
+            <div class="past-speakers-section">
+                <div class="section-title">Past Speakers</div>
+                <div class="speakers-list-cont">
+                    <ul class="speakers-list">
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_04.png" alt="Brad K. Jackson">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Brad K. Jackson
+                                    </div>
+                                    <div class="speaker-post">
+                                        Senior Developer at Frontech Media
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_05.png" alt="Barry Allen">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Barry Allen
+                                    </div>
+                                    <div class="speaker-post">
+                                        Marketing Director at KGP Media
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_06.png" alt="Eva Theron">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Eva Theron
+                                    </div>
+                                    <div class="speaker-post">
+                                        CEO at Fan Solutions
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_03.png" alt="Sandra Perry">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Sandra Perry
+                                    </div>
+                                    <div class="speaker-post">
+                                        Senior Developer at Frontech Media Solutions
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Thomas Abruzzi Martin
+                                    </div>
+                                    <div class="speaker-post">
+                                        CEO at Fan Solutions
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                        <li class="speaker-item">
+                            <div class="speaker-cont">
+                                <div class="speaker-img-cont">
+                                    <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                </div>
+                                <div class="intro">
+                                    <div class="speaker-name">
+                                        Ken Thompson
+                                    </div>
+                                    <div class="speaker-post">
+                                        Marketing Director at KGP Media
+                                    </div>
+                                </div>
+                                <div class="speaker-overlay"></div>
+                                <div class="speaker-hover-overlay"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials-section-wrapper">
+            <div class="testimonials-section">
+                <div class="section-title">Testimonials</div>
+                <p class="section-description">See what other peoples are saying about us</p>
+                <ul class="testimonials-list">
+                    <li class="testimonial-item">
+                        <div class="image-cont"></div>
+                        <div class="testimonial-cont">
+                            <p class="testimonial">
+                                “We should live and see positive and do extraordinary things 
+                                & make people believe everything.”
+                            </p>
+                            <div class="name">diana</div>
+                            <div class="address">West Street 245 - Denmark</div>
+                        </div>
+                    </li>
+                    <li class="testimonial-item">
+                        <div class="image-cont"></div>
+                        <div class="testimonial-cont">
+                            <p class="testimonial">
+                                “Le site se veut minimaliste permettant au contenu de prendre 
+                                toute sademant dimension le but étant de”
+                            </p>
+                            <div class="name">bob</div>
+                            <div class="address">West Street 245 - Denmark</div>
+                        </div>
+                    </li>
+                    <li class="testimonial-item">
+                        <div class="image-cont"></div>
+                        <div class="testimonial-cont">
+                            <p class="testimonial">
+                                “We should live and see positive and do extraordinary things & 
+                                make people believe everything.”
+                            </p>
+                            <div class="name">shayera</div>
+                            <div class="address">West Street 245 - Denmark</div>
+                        </div>
+                    </li>
+                    <li class="testimonial-item">
+                        <div class="image-cont"></div>
+                        <div class="testimonial-cont">
+                            <p class="testimonial">
+                                “Le site se veut minimaliste permettant au contenu de prendre 
+                                toute sademant dimension le but étant de”
+                            </p>
+                            <div class="name">kendrick</div>
+                            <div class="address">West Street 245 - Denmark</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="early-bird-section-wrapper">
+            <div class="early-bird-section">
+                <div class="section-title">
+                    Hurry Up For Early Bird Tickets!
+                </div>
+                <div class="counter-container">
+                    <div class="days counter">
+                        <span class="count">14</span>
+                        <span class="label">Days</span>
+                    </div>
+                    <div class="hours counter">
+                        <span class="count">11</span>
+                        <span class="label">Hours</span>
+                    </div>
+                    <div class="minutes counter">
+                        <span class="count">30</span>
+                        <span class="label">Minutes</span>
+                    </div>
+                    <div class="seconds counter">
+                        <span class="count">43</span>
+                        <span class="label">Seconds</span>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button class="btn gold"><span class="go-icon">Buy Tickets Now</span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="sponsors-section-wrapper">
+            <div class="sponsors-section">
+                <div class="section-title">Our Event Sponsors</div>
+                <p class="section-description">Check who makes the event possible</p>
+                <div class="sponsors-list-cont">
+                    <div class="sponsors-class">Platinum Sponsors</div>
+                    <div id="platinum-sponsors">
+                        <ul class="sponsors-list">
+                            <li class="sponsor">
+                                <div class="sponsor-image-cont">
+                                    <img src="./images/sponsor_01.png" alt="DBUGER digital studio">
+                                </div>
+                            </li>
+                            <li class="sponsor">
+                                <div class="sponsor-image-cont">
+                                    <img src="./images/sponsor_02.png" alt="LIGHTSOFT">
+                                </div>
+                            </li>
+                            <li class="sponsor">
+                                <div class="sponsor-image-cont">
+                                    <img src="./images/sponsor_03.png" alt="Cellmats">
+                                </div>
+                            </li>
+                            <li class="sponsor">
+                                <div class="sponsor-image-cont">
+                                    <img src="./images/sponsor_04.png" alt="SKYBIRD">
+                                </div>
+                            </li>
+                            <li class="sponsor">
+                                <div class="sponsor-image-cont">
+                                    <img src="./images/sponsor_05.png" alt="EITHER NAPPLI">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sponsors-list-cont">
+                    <div class="sponsors-class">Media Sponsors</div>
+                    <ul class="sponsors-list">
+                        <li class="sponsor">
+                            <div class="sponsor-image-cont">
+                                <img src="./images/sponsor_04.png" alt="SKYBIRD">
+                            </div>
+                        </li>
+                        <li class="sponsor">
+                            <div class="sponsor-image-cont">
+                                <img src="./images/sponsor_03.png" alt="Cellmats">
+                            </div>
+                        </li>
+                        <li class="sponsor">
+                            <div class="sponsor-image-cont">
+                                <img src="./images/sponsor_05.png" alt="EITHER NAPPLI">
+                            </div>
+                        </li>
+                        <li class="sponsor">
+                            <div class="sponsor-image-cont">
+                                <img src="./images/sponsor_01.png" alt="DBUGER digital studio">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="location-contact-section-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.69732689513!2d-73.97704188473506!3d40.63655647934009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b2ce7e4d89f%3A0xecc06dc46aebb5e1!2s641+E+4th+St%2C+Brooklyn%2C+NY+11218%2C+USA!5e0!3m2!1sen!2snp!4v1562489576231!5m2!1sen!2snp" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="contact-section">
+                <div class="contact-info-cont">
+                    <div class="section-title">Location</div>
+                    <ul class="contact-infos">
+                        <li class="address">641 4th Avenue Street, Newyork, US</li>
+                        <li class="email">info@malitomail.com</li>
+                        <li class="phone">521 666 0820</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/fb_icon.png" alt="Facebook Page Link"></span>
+                        </a>
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/twitter_icon.png" alt="Twitter Link"></span>
+                        </a>
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/instagram_icon.png" alt="Instagram Link"></span>
+                        </a>
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/pinterest_icon.png" alt="Pinterest Link"></span>
+                        </a>
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/rssfeed_icon.png" alt="RSS Feed Link"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subscribe-section-wrapper">
+            <div class="subscribe-section">
+                <div class="section-title">Get Updates!</div>
+                <div class="form-cont">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <div class="form-input">
+                                <input type="email" placeholder="email address">
+                            </div>
+                            <div class="form-btn-cont">
+                                <button>
+                                    <span class="email-icon">
+                                        <img src="./images/icons/email_white_icon.png" alt="Email">
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-wrapper">
+
+        <div class="footer-top clearfix">
+            <div class="left clearfix">
+                <div class="short-info-cont">
+                    <div class="footer-title">Conference & Events</div>
+                    <p class="description">
+                        We are a startup community dedicated to educate, inspire, 
+                        & connect entrepreneurs. Lorem ipsum dolor sit amet.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/fb_white_icon.png" alt="Facebook Page Link"></span>
+                        </a>
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/twitter_white_icon.png" alt="Twitter Link"></span>
+                        </a>
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/instagram_white_icon.png" alt="Instagram Link"></span>
+                        </a>
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/pinterest_white_icon.png" alt="Pinterest Link"></span>
+                        </a>
+                        <a href="#" class="link">
+                            <span><img src="./images/icons/rssfeed_white_icon.png" alt="RSS Feed Link"></span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="links-cont">
+                    <div class="footer-title">Links</div>
+                    <ul class="links-list">
+                        <li>
+                            <a href="#" class="link">The Speakers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">Schedule Dates</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">Sponsors List</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">Review Insights</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="instagram-post-cont">
+                <div class="footer-title">Instagram</div>
+                <ul class="instagram-post-list">
+                    <li class="instagram-post">
+                        <div class="instagram-post-img-cont">
+                            <img src="./images/instagram/instagram_post_01.png" alt="Instagram Post">
+                        </div>
+                    </li>
+                    <li class="instagram-post">
+                        <div class="instagram-post-img-cont">
+                            <img src="./images/instagram/instagram_post_02.png" alt="Instagram Post">
+                        </div>
+                    </li>
+                    <li class="instagram-post">
+                        <div class="instagram-post-img-cont">
+                            <img src="./images/instagram/instagram_post_03.png" alt="Instagram Post">
+                        </div>
+                    </li>
+                    <li class="instagram-post">
+                        <div class="instagram-post-img-cont">
+                            <img src="./images/instagram/instagram_post_04.png" alt="Instagram Post">
+                        </div>
+                    </li>
+                    <li class="instagram-post">
+                        <div class="instagram-post-img-cont">
+                            <img src="./images/instagram/instagram_post_05.png" alt="Instagram Post">
+                        </div>
+                    </li>
+                    <li class="instagram-post">
+                        <div class="instagram-post-img-cont">
+                            <img src="./images/instagram/instagram_post_06.png" alt="Instagram Post">
+                        </div>
+                    </li>
+                    <li class="instagram-post">
+                        <div class="instagram-post-img-cont">
+                            <img src="./images/instagram/instagram_post_07.png" alt="Instagram Post">
+                        </div>
+                    </li>
+                    <li class="instagram-post">
+                        <div class="instagram-post-img-cont">
+                            <img src="./images/instagram/instagram_post_08.png" alt="Instagram Post">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            
+            <div class="content">
+                <p>
+                    &copy; 2017 Source Conference Association. 
+                    All rights reserved. Designed name by <a href="#" class="link">Niraj Thapa</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/carousel.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
