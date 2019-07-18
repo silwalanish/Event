@@ -1280,12 +1280,13 @@
   .navbar-container .navbar{
     display: inline-block;
     vertical-align: middle;
-    position: relative;
-    top: 0px;
-    right: auto;
+    position: absolute;
+    top: 50%;
+    right: 0px;
     width: auto;
     height: auto;
     padding: 0px;
+    transform: translate(0, -50%);
   }
 
   .navbar .navbar-item{
