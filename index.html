@@ -256,33 +256,33 @@
                 <div class="schedule-icon"></div>
                 <div class="section-title">Schedule</div>
                 <p class="section-description">Highly configurable block with optional auditoriums and threads</p>
-                <div class="days-tab-layout">
+                <div class="days-tab-layout tab-layout">
                     <div class="tabs-cont">
-                        <a href="#" class="tab active" title="Day 1">
+                        <a href="#day1" class="tab active" title="Day 1" data-target="#day1">
                             <div class="day">Day 1</div>
                             <div class="date">11/24/2017</div>
                         </a>
-                        <a href="#" class="tab" title="Day 2">
+                        <a href="#day2" class="tab" title="Day 2" data-target="#day2">
                             <div class="day">Day 2</div>
                             <div class="date">11/25/2017</div>
                         </a>
-                        <a href="#" class="tab" title="Day 3">
+                        <a href="#day3" class="tab" title="Day 3" data-target="#day3">
                             <div class="day">Day 3</div>
                             <div class="date">11/26/2017</div>
                         </a>
-                        <a href="#" class="tab" title="Day 4">
+                        <a href="#day4" class="tab" title="Day 4" data-target="#day4">
                             <div class="day">Day 4</div>
                             <div class="date">11/27/2017</div>
                         </a>
                     </div>
-                    <div class="tab-content">
-                        <div class="auditorium-tab-layout">
+                    <div class="tab-content show" id="day1">
+                        <div class="auditorium-tab-layout tab-layout">
                             <div class="tabs-cont">
-                                <a href="#" class="tab active" title="Auditorium 1">Auditorium 1</a>
-                                <a href="#" class="tab" title="Auditorium 2">Auditorium 2</a>
-                                <a href="#" class="tab" title="Hall A1">Hall A1</a>
+                                <a href="#" class="tab active" title="Auditorium 1" data-target="#day1-auditorium1">Auditorium 1</a>
+                                <a href="#" class="tab" title="Auditorium 2" data-target="#day1-auditorium2">Auditorium 2</a>
+                                <a href="#" class="tab" title="Hall A1" data-target="#day1-halla1">Hall A1</a>
                             </div>
-                            <div class="tab-content">
+                            <div class="tab-content show" id="day1-auditorium1">
                                 <ul class="schedule-list">
                                     <li class="schedule">
                                         <div class="host-img-cont">
@@ -324,6 +324,502 @@
                                         <div class="host-img-cont">
                                             <div class="host-img">
                                                 <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="day1-auditorium2">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="day1-halla1">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">2:20 PM</div>
+                                            <h2 class="schedule-title">More Events</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_06.png" alt="Eva Theron">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="day2">
+                        <div class="auditorium-tab-layout tab-layout">
+                            <div class="tabs-cont">
+                                <a href="#" class="tab" title="Hall A3" data-target="#day2-halla3">Hall A3</a>
+                                <a href="#" class="tab" title="Auditorium 1" data-target="#day2-auditorium1">Auditorium 1</a>
+                                <a href="#" class="tab" title="Auditorium 2" data-target="#day2-auditorium2">Auditorium 2</a>
+                            </div>
+                            <div class="tab-content" id="day2-auditorium2">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_06.png" alt="Eva Theron">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">2:20 PM</div>
+                                            <h2 class="schedule-title">Event registration & Breakfast</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="day2-auditorium1">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="day2-halla3">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">2:20 PM</div>
+                                            <h2 class="schedule-title">More Events</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_06.png" alt="Eva Theron">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="day3">
+                        <div class="auditorium-tab-layout tab-layout">
+                            <div class="tabs-cont">
+                                <a href="#" class="tab active" title="Auditorium 1" data-target="#day3-auditorium1">Auditorium 1</a>
+                                <a href="#" class="tab" title="Hall A1" data-target="#day3-halla1">Hall A1</a>
+                            </div>
+                            <div class="tab-content show" id="day3-auditorium1">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_06.png" alt="Eva Theron">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">2:20 PM</div>
+                                            <h2 class="schedule-title">Event registration & Breakfast</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="day3-halla1">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">2:20 PM</div>
+                                            <h2 class="schedule-title">More Events</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_06.png" alt="Eva Theron">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="day4">
+                        <div class="auditorium-tab-layout tab-layout">
+                            <div class="tabs-cont">
+                                <a href="#" class="tab active" title="Auditorium 1" data-target="#day4-auditorium1">Auditorium 1</a>
+                                <a href="#" class="tab" title="Auditorium 2" data-target="#day4-auditorium2">Auditorium 2</a>
+                            </div>
+                            <div class="tab-content show" id="day4-auditorium1">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_06.png" alt="Eva Theron">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">2:20 PM</div>
+                                            <h2 class="schedule-title">Event registration & Breakfast</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Open your business around the world</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="day4-auditorium2">
+                                <ul class="schedule-list">
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_02.png" alt="Ken Thompson">
+                                            </div>
+                                        </div>
+                                        <div class="schedule-details-cont expanded accordion">
+                                            <button class="accordion-toggle"></button>
+                                            <div class="schedule-time">3:00 PM</div>
+                                            <h2 class="schedule-title">Scaling into crowded space</h2>
+                                            <p class="schedule-details accordion-content">
+                                                Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui
+                                                adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt 
+                                                elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet 
+                                                ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="schedule">
+                                        <div class="host-img-cont">
+                                            <div class="host-img">
+                                                <img src="./images/speaker_01.png" alt="Thomas Abruzzi Martin">
                                             </div>
                                         </div>
                                         <div class="schedule-details-cont accordion">

@@ -56,6 +56,30 @@ var accordionToggles = document.querySelectorAll(".accordion");
 accordionToggles.forEach(toggle => {
     toggle.addEventListener('click', (e) => {
         toggle.classList.toggle("expanded");
-        
     });
+});
+
+
+var tabLayouts = document.querySelectorAll(".tab-layout");
+tabLayouts.forEach(tabLayout => {
+    let tabs = tabLayout.querySelectorAll(":scope > .tabs-cont .tab");
+    tabs.forEach(tab => {
+        tab.addEventListener("click", (e) => {
+            let visible = tabLayout.querySelector(':scope > .tab-content.show');
+            if(visible){
+                visible.classList.remove('show');
+            }
+            let content = tabLayout.querySelector(tab.dataset.target);
+            if(content){
+                content.classList.add('show');
+            }
+            let activeTab = tabLayout.querySelector(':scope > .tabs-cont .tab.active');
+            if(activeTab){
+                activeTab.classList.remove('active');
+            }
+            tab.classList.add('active');
+            e.preventDefault();
+        });
+    });
+    tabs[0].click();
 });

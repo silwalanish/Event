@@ -610,6 +610,10 @@
   border: none;
 }
 
+.accordion{
+  cursor: pointer;
+}
+
 .schedule .schedule-details-cont .accordion-toggle{
   position: absolute;
   right: 10px;
@@ -1211,6 +1215,10 @@
     text-align: left;
   }
 
+  .days-tab-layout .tabs-cont .tab:hover{
+    color: #F0474A;
+  }
+
   .days-tab-layout .tabs-cont .tab .day{
     font-size: 20px;
     line-height: 30px;
@@ -1221,8 +1229,20 @@
     line-height: 30px;
   }
 
+  .tab-content{
+    display: none;
+  }
+
+  .tab-content.show{
+    display: block;
+  }
+
   .auditorium-tab-layout .tabs-cont .tab{
     font-size: 14px;
+  }
+
+  .auditorium-tab-layout .tabs-cont .tab:hover{
+    color: #1c1d1d;
   }
 
   .auditorium-tab-layout .tab-content{
