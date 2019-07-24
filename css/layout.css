@@ -838,34 +838,20 @@
   color: #1c1d1d;
   font-family: "Poppins";
   font-size: 12px;
-  line-height: 22px;
+  line-height: 24px;
   letter-spacing: 1px;
   padding: 5px 0px 5px 35px;
   position: relative;
 }
 
-.contact-infos li::before{
-  content: "";
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 23px;
-  height: 23px;
+.contact-infos li span{
+  font-size: 18px;
+  line-height: 24px;
+  color: #F0474A;
   margin-right: 13px;
   position: absolute;
   top: 5px;
   left: 0px;
-}
-
-.contact-infos .address::before{
-  background-image: url("../images/icons/location_icon.png");
-}
-
-.contact-infos .email::before{
-  background-image: url("../images/icons/email_icon.png");
-}
-
-.contact-infos .phone::before{
-  background-image: url("../images/icons/phone_icon.png");
 }
 
 .contact-info-cont .social-links{
@@ -876,6 +862,12 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0px 8px;
+  font-size: 18px;
+  color: #F0474A;
+}
+
+.social-links .link:hover{
+  color: #1c1d1d;
 }
 
 .social-links .link:first-child{
@@ -942,12 +934,15 @@
 .form-group .form-btn-cont{
   display: inline-block;
   vertical-align: middle;
+  color: #ffffff;
 }
 
 .form-group .form-btn-cont button{
   display: inline-block;
   vertical-align: middle;
+  font-size: 18px;
   line-height: 28px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -994,6 +989,15 @@
   letter-spacing: 1px;
   color: #cecece;
   padding: 30px 0px 40px 0px;
+}
+
+.footer-top .social-links .link{
+  font-size: 18px;
+  color: #cecece;
+}
+
+.footer-top .social-links .link:hover{
+  color: #F0474A;
 }
 
 .footer-top .links-list{
@@ -1472,10 +1476,6 @@
     margin: 4px 15px;
   }
 
-
-
-
-
   .about-section-wrapper{
     max-width: 90em;
     padding: 135px 50px 120px 50px;
@@ -1645,6 +1645,10 @@
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.05em;
+  }
+
+  .contact-infos li span{
+    top: 22%;
   }
 
   .location-contact-section-wrapper .contact-section{
